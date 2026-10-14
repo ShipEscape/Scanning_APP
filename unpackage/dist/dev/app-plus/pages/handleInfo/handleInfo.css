@@ -1,0 +1,104 @@
+.container[data-v-0363a57f] { 
+  padding: 16px; 
+  background-color: #f5f7fa;
+  min-height: 100vh;
+}
+
+/* 表单卡片 */
+.form-card[data-v-0363a57f] {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* 表单项样式 */
+.form-item[data-v-0363a57f] { 
+  margin-bottom: 16px; 
+  display: flex; 
+  flex-direction: column;
+}
+.label[data-v-0363a57f] { 
+  font-size: 14px; 
+  color: #333; 
+  margin-bottom: 6px; 
+  display: flex;
+  align-items: center;
+}
+.required[data-v-0363a57f]::after {
+  content: '*';
+  color: #ff3b30;
+  margin-left: 4px;
+  font-size: 15px;
+}
+
+/* 输入框样式 */
+.input[data-v-0363a57f], .textarea[data-v-0363a57f], .picker-view[data-v-0363a57f] { 
+  padding: 10px 12px; 
+  border: 1px solid #e0e0e0; 
+  border-radius: 5px; 
+  font-size: 14px; 
+  transition: border-color 0.3s;
+}
+.input[data-v-0363a57f]:focus, .textarea[data-v-0363a57f]:focus, .picker-view[data-v-0363a57f]:active {
+  border-color: #007aff;
+  outline: none;
+}
+.textarea[data-v-0363a57f] {
+  min-height: 100px;
+  resize: vertical;
+  line-height: 1.5;
+}
+
+/* 选择器样式 */
+.picker-view[data-v-0363a57f] { 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  margin-bottom: 6px;
+}
+.icon-arrow[data-v-0363a57f] {
+  color: #999;
+  font-size: 13px;
+}
+
+/* 提示文字 */
+.input-hint[data-v-0363a57f] {
+  font-size: 11px;
+  color: #999;
+  margin: 3px 0 6px 0;
+  padding-left: 2px;
+}
+
+/* 提交按钮 */
+.submit-btn[data-v-0363a57f] { 
+  background-color: #007aff; 
+  color: #fff; 
+  font-size: 15px; 
+  padding: 11px; 
+  border-radius: 6px; 
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 1px;
+}
+.submit-btn[data-v-0363a57f]:active {
+  background-color: #0066cc;
+}
+
+/* 加载动画 */
+.loading-icon[data-v-0363a57f] {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  border-top-color: #fff;
+  animation: spin-0363a57f 1s linear infinite;
+  margin-right: 6px;
+}
+@keyframes spin-0363a57f {
+to { transform: rotate(360deg);
+}
+}

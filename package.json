@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@dcloudio/uni-ui": "^1.5.10",
+    "blob-polyfill": "^9.0.20240710",
+    "tesseract.js": "^6.0.1"
+  }
+}

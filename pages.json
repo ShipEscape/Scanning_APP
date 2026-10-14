@@ -1,0 +1,69 @@
+{
+  "pages": [
+    // 首页（页面1）
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "智能火灾感知与应急系统"
+      }
+    },
+    // 设备部署页面
+    {
+      "path": "pages/deviceDeployment/deviceDeployment",
+      "style": {
+        "navigationBarTitleText": "设备部署"
+      }
+    },
+    // 电池状态监控页面
+    {
+      "path": "pages/batteryMonitor/batteryMonitor",
+      "style": {
+        "navigationBarTitleText": "电池状态监控"
+      }
+    },
+    // 舱室火灾监控页面（合并后）
+    {
+      "path": "pages/fireMonitor/fireMonitor",
+      "style": {
+        "navigationBarTitleText": "舱室火灾监控"
+      },
+      "usingComponents": {
+        "uni-popup": "@dcloudio/uni-ui/lib/uni-popup/uni-popup"
+      }
+    },
+    {
+      "path": "pages/roomMap/roomMap",
+      "style": {
+        "navigationBarTitleText": "房间地图"
+      }
+    },
+  
+    {
+    	"path" : "pages/handleInfo/handleInfo",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "报警信息处理"
+    	}
+    },
+    {
+    	"path" : "pages/processInfo_log/processInfo_log",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "报警处理日志"
+    	}
+    },
+    {
+    	"path" : "pages/PeopleNum/PeopleNum",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "舱室人员信息"
+    	}
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "Uni App",
+    "navigationBarBackgroundColor": "#007AFF",
+    "backgroundColor": "#F8F8F8"
+  }
+}

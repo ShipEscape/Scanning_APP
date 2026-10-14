@@ -1,0 +1,134 @@
+.alarm-log-page[data-v-d1d1acb9] {
+  min-height: 100vh;
+  background-color: #f5f7fa;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+/* 搜索容器 */
+.search-container[data-v-d1d1acb9] {
+  margin-bottom: 20px;
+}
+
+/* 搜索栏 */
+.search-bar[data-v-d1d1acb9] {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-radius: 8px;
+  padding: 0 16px;
+  height: 48px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+.search-icon[data-v-d1d1acb9] {
+  color: #999;
+  margin-right: 8px;
+}
+.search-input[data-v-d1d1acb9] {
+  flex: 1;
+  height: 100%;
+  font-size: 15px;
+  color: #333;
+}
+.clear-btn[data-v-d1d1acb9] {
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  color: #999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 日志列表 */
+.alarm-list[data-v-d1d1acb9] {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* 卡片样式 */
+.alarm-card[data-v-d1d1acb9] {
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  border-left: 4px solid #4e5ba6;
+}
+.alarm-card[data-v-d1d1acb9]:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* 未处理卡片样式（仅保留左侧边框颜色区分，无状态文字） */
+.alarm-card.unhandled[data-v-d1d1acb9] {
+  border-left-color: #f53f3f;
+}
+
+/* 卡片头部 */
+.card-header[data-v-d1d1acb9] {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #f2f2f2;
+}
+.alarm-type[data-v-d1d1acb9] {
+  display: flex;
+  align-items: center;
+}
+.type-label[data-v-d1d1acb9] {
+  font-size: 14px;
+  color: #666;
+  margin-right: 6px;
+}
+.type-value[data-v-d1d1acb9] {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* 卡片主体内容 */
+.card-body[data-v-d1d1acb9] {
+  margin-bottom: 16px;
+}
+.info-row[data-v-d1d1acb9] {
+  display: flex;
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+.info-row[data-v-d1d1acb9]:last-child {
+  margin-bottom: 0;
+}
+.info-label[data-v-d1d1acb9] {
+  flex-shrink: 0;
+  width: 90px;
+  font-size: 14px;
+  color: #666;
+}
+.info-value[data-v-d1d1acb9] {
+  flex: 1;
+  font-size: 14px;
+  color: #333;
+  word-break: break-all;
+}
+
+/* 无数据提示 */
+.no-data[data-v-d1d1acb9] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  color: #999;
+}
+.no-data-img[data-v-d1d1acb9] {
+  width: 120px;
+  margin-bottom: 16px;
+  opacity: 0.6;
+}
+.no-data-text[data-v-d1d1acb9] {
+  font-size: 15px;
+}

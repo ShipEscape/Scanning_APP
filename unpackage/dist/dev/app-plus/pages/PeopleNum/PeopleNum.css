@@ -1,0 +1,203 @@
+.container[data-v-9822f8f0] {
+  padding: 16px;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
+
+/* 甲板筛选器样式 */
+.deck-filter[data-v-9822f8f0] {
+  background-color: #ffffff;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.filter-label[data-v-9822f8f0] {
+  color: #666;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+/* 输入框与筛选按钮一行布局 */
+.filter-input-group[data-v-9822f8f0] {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.deck-input[data-v-9822f8f0] {
+  flex: 1; /* 输入框占满剩余宽度 */
+  height: 40px;
+  padding: 0 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+/* 筛选按钮样式 */
+.filter-btn.apply-btn[data-v-9822f8f0] {
+  height: 40px;
+  padding: 0 20px;
+  border-radius: 6px;
+  font-size: 14px;
+  line-height: 40px;
+  background-color: #007aff;
+  color: #ffffff;
+  border: none;
+}
+
+/* 筛选状态提示 */
+.filter-hint[data-v-9822f8f0] {
+  font-size: 13px;
+  color: #666;
+  padding: 4px 0;
+}
+
+/* 清除筛选文本 */
+.clear-filter[data-v-9822f8f0] {
+  color: #007aff;
+  margin-left: 8px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* 加载状态样式 */
+.loading[data-v-9822f8f0] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0;
+}
+.loading-text[data-v-9822f8f0] {
+  margin-top: 10px;
+  color: #666;
+  font-size: 14px;
+}
+
+/* 错误提示样式 */
+.error[data-v-9822f8f0] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+  color: #ff0000;
+}
+.error-text[data-v-9822f8f0] {
+  margin-left: 8px;
+  font-size: 14px;
+}
+
+/* 房间列表样式 */
+.room-list[data-v-9822f8f0] {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* 房间卡片基础样式 */
+.room-card[data-v-9822f8f0] {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  border-left: 4px solid #007aff;
+}
+
+/* 报警房间动态标红效果 */
+.room-card.alarm-active[data-v-9822f8f0] {
+  border-left-color: #ff3b30;
+  animation: pulse-9822f8f0 1.5s infinite;
+}
+@keyframes pulse-9822f8f0 {
+0% { box-shadow: 0 0 0 0 rgba(255, 59, 48, 0.4);
+}
+70% { box-shadow: 0 0 0 10px rgba(255, 59, 48, 0);
+}
+100% { box-shadow: 0 0 0 0 rgba(255, 59, 48, 0);
+}
+}
+
+/* 卡片内信息样式 - 统一标签样式 */
+.label[data-v-9822f8f0] {
+  color: #666;
+  font-size: 14px;
+}
+
+/* 房间号（视觉权重最高） */
+.room-code[data-v-9822f8f0] {
+  margin-bottom: 12px;
+}
+.room-code .value[data-v-9822f8f0] {
+  font-size: 18px; /* 最大字号 */
+  font-weight: bold;
+  color: #1a1a1a; /* 最深颜色 */
+  margin-right: 8px;
+}
+.deck-info[data-v-9822f8f0] {
+  font-size: 14px;
+  color: #666;
+  background-color: #f0f0f0;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+/* 设备编号（常规权重） */
+.device-code[data-v-9822f8f0] {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.device-code .value[data-v-9822f8f0] {
+  color: #333;
+  font-size: 14px;
+}
+
+/* 人数信息（醒目但低于房间号） */
+.people-count[data-v-9822f8f0] {
+  margin-bottom: 8px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+/* 人数数值：比房间号小2px，颜色稍浅，确保权重更低 */
+.people-value[data-v-9822f8f0] {
+  font-size: 16px; /* 小于房间号18px */
+  font-weight: bold;
+  color: #333; /* 浅于房间号#1a1a1a */
+  margin: 0 4px;
+}
+
+/* 人数单位：辅助说明，常规样式 */
+.people-unit[data-v-9822f8f0] {
+  font-size: 14px;
+  color: #666;
+}
+
+/* 报警状态标签 */
+.status-tag[data-v-9822f8f0] {
+  margin-top: 10px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  background-color: #ff3b30;
+  color: #ffffff;
+  font-size: 12px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* 空数据提示 */
+.empty[data-v-9822f8f0] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0;
+  color: #cccccc;
+}
+.empty-text[data-v-9822f8f0] {
+  margin-top: 16px;
+  font-size: 14px;
+}

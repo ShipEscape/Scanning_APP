@@ -1,0 +1,15 @@
+{
+  "hash": "b3951486",
+  "configHash": "3fd3c223",
+  "lockfileHash": "022e8335",
+  "browserHash": "82851baf",
+  "optimized": {
+    "tesseract.js": {
+      "src": "../../../../../node_modules/tesseract.js/src/index.js",
+      "file": "tesseract__js.js",
+      "fileHash": "1240af44",
+      "needsInterop": true
+    }
+  },
+  "chunks": {}
+}

@@ -1,0 +1,34 @@
+.device-deploy[data-v-da6bd99d] { padding: 0.625rem; background-color: #f8f9fa;
+}
+.form-module[data-v-da6bd99d] { background-color: #fff; border-radius: 0.5rem; box-shadow: 0 0.125rem 0.375rem rgba(0,0,0,0.05); margin-bottom: 0.9375rem; padding: 0.9375rem;
+}
+.module-title[data-v-da6bd99d] { font-size: 0.875rem; color: #333; font-weight: bold; margin-bottom: 0.625rem; position: relative; padding-left: 0.375rem;
+}
+.module-title[data-v-da6bd99d]::before { content: ""; position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 0.1875rem; height: 0.875rem; background-color: #409eff; border-radius: 0.09375rem;
+}
+.section-label[data-v-da6bd99d] { font-size: 0.8125rem; color: #666; margin-bottom: 0.3125rem; display: block;
+}
+.input-control[data-v-da6bd99d] { width: 100%; height: 2.5rem; border: 1px solid #eee; border-radius: 0.25rem; padding: 0 0.625rem; font-size: 0.875rem; margin-bottom: 0.625rem; background-color: #fcfcfc;
+}
+.input-control[data-v-da6bd99d]:focus { border-color: #409eff; box-shadow: 0 0 0.25rem rgba(64,158,255,0.2);
+}
+.scan-btn[data-v-da6bd99d] { width: 100%; height: 2.75rem; background-color: #409eff; color: #fff; font-size: 0.875rem; border-radius: 0.25rem; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;
+}
+.scan-btn[data-v-da6bd99d]:hover { opacity: 0.9;
+}
+.scan-btn[data-v-da6bd99d]:disabled { background-color: #ccc; color: #999; opacity: 0.8;
+}
+.scan-btn .icon[data-v-da6bd99d] { margin-right: 0.3125rem; font-size: 1rem;
+}
+.photo-preview[data-v-da6bd99d] { position: relative; background-color: #fff; border-radius: 0.5rem; box-shadow: 0 0.125rem 0.375rem rgba(0,0,0,0.05); padding: 0.625rem; margin-bottom: 0.9375rem; overflow: hidden;
+}
+.preview-img[data-v-da6bd99d] { width: 100%; border-radius: 0.25rem; opacity: 1; transition: all 0.3s ease;
+}
+.mask[data-v-da6bd99d] { position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0.8)); z-index: 1;
+}
+.preview-tip[data-v-da6bd99d] { position: absolute; bottom: 0.625rem; left: 50%; transform: translateX(-50%); font-size: 0.8125rem; color: #333; z-index: 2; background-color: rgba(255,255,255,0.8); padding: 0.3125rem 0.625rem; border-radius: 0.25rem;
+}
+.submit-btn[data-v-da6bd99d] { width: 100%; height: 2.8125rem; background-color: #409eff; color: #fff; font-size: 1rem; border-radius: 0.3125rem; transition: all 0.3s ease;
+}
+.submit-btn[data-v-da6bd99d]:disabled { background-color: #ccc; color: #999; opacity: 0.8;
+}
